@@ -1,0 +1,93 @@
+.App {
+  text-align: center; 
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+ 
+.frame {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container { 
+  margin: 5em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+}
+
+.container-small {
+  padding: 1em;
+  /* color: azure; */
+  width: 10em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card {
+  margin-top: 0;
+  margin-bottom: 2em;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  background-color: #818181;
+  
+}
+
+.card:hover{
+    box-shadow: 10px 5px 5px gray;
+}
+
+.controller {
+  background: #555;
+  margin: 0 1em;
+  border: 1px solid;
+  height: 4em;
+  width: 4em;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+
+}
+
+.controller:hover{
+  height: 5em;
+  width: 5em;
+}
+
+.control-buttons {
+  height: 4em;
+  width: 15em;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .control-buttons:hover{
+  box-shadow: 10px 5px 5px #555;
+} */
+
+.control-pannel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pannel {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2em;
+}
