@@ -24,8 +24,8 @@ const bubbleSort = (arr , position , arraySteps , colorSteps) =>
             colorKey[i+1]=0;
         }
         
-        // finally after sorting set the color to 2
-        // once inner for loop finish it's mean last element is sorted
+        // finally after sorting...set the color to 2
+        // once inner for-loop finish it's mean last element is sorted
         colorKey[arraySteps.length -1-j] = 2;
         arraySteps.push(arr.slice());
         colorSteps.push(colorKey.slice());
